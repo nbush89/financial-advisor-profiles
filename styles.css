@@ -1,0 +1,49 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  padding: 15px;
+}
+.profile-header {
+  display: flex;
+  align-items: center;
+}
+.rating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.award {
+  height: 125px;
+  width: 125px;
+}
+.title {
+  margin-left: 30px;
+}
+h1 {
+  margin: 3px 0px;
+}
+h3 {
+  margin: 0px;
+}
+h4 {
+  margin: 5px 0px;
+}
+.address {
+  border-right: 1px solid black;
+  padding-right: 15px;
+}
+.firm-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+a {
+  padding: 5px 15px;
+  font-size: 18px;
+  text-decoration: none;
+}
+.description {
+  border-left: 1px solid black;
+  border-right: none;
+  padding: 5px 20px;
+  font-size: 18px;
+}
