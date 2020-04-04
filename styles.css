@@ -8,15 +8,29 @@ body {
 }
 .rating {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
+}
+#star1, #star2, #star3, #star4, #star5{
+  font-size: large;
+}
+#star1, #star2, #star3, #star4{
+  color: gold;
+}
+#star5{
+  color: lightgrey
+}
+#score{
+  font-size: 25px;
+  margin: 0px;
+  font-weight: bold;
+}
+.title{
+  margin: 20px 30px
 }
 .award {
   height: 125px;
   width: 125px;
-}
-.title {
-  margin-left: 30px;
 }
 h1 {
   margin: 3px 0px;
@@ -27,9 +41,16 @@ h3 {
 h4 {
   margin: 5px 0px;
 }
-.address {
+.phone,
+.website {
+  padding: 15px 15px;
+  margin: 0px;
+}
+.address{
   border-right: 1px solid black;
-  padding-right: 15px;
+  border-left: 1px solid black;
+  padding: 5px 15px;
+  margin: 0px;
 }
 .firm-info {
   display: flex;
@@ -37,13 +58,13 @@ h4 {
   margin-bottom: 10px;
 }
 a {
-  padding: 5px 15px;
+  padding: 10px 15px;
   font-size: 18px;
   text-decoration: none;
 }
-.description {
+.description-text {
   border-left: 1px solid black;
   border-right: none;
   padding: 5px 20px;
-  font-size: 18px;
+  font-size: 17px;
 }
