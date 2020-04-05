@@ -6,14 +6,36 @@ body {
 .profile-header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+h1 {
+  margin: 3px 0px;
+  font-size: 30px;
+}
+#crd{
+  margin: 2px 0px;
+  font-size: 12px
+}
+h3 {
+  margin: 0px;
+  font-size: 15px;
+}
+h4 {
+  margin: 5px 0px;
+  font-size: 15px;
 }
 .rating {
   display: flex;
   align-items: center;
-  flex-direction: column;
 }
-#star1, #star2, #star3, #star4, #star5{
-  font-size: large;
+#score{
+  font-weight: bold;
+  margin: 0px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+.stars{
+  font-size: 16px;
 }
 #star1, #star2, #star3, #star4{
   color: gold;
@@ -21,31 +43,9 @@ body {
 #star5{
   color: lightgrey
 }
-#score{
-  font-size: 25px;
-  margin: 0px;
-  font-weight: bold;
-}
-.title{
-  margin: 20px 30px
-}
 .award {
-  height: 125px;
-  width: 125px;
-}
-h1 {
-  margin: 3px 0px;
-}
-h3 {
-  margin: 0px;
-}
-h4 {
-  margin: 5px 0px;
-}
-.phone,
-.website {
-  padding: 15px 15px;
-  margin: 0px;
+  height: 100px;
+  width: 100px;
 }
 .address{
   border-right: 1px solid grey;
@@ -56,19 +56,20 @@ h4 {
 .firm-info {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   margin: 20px 0px;
+  font-size: 13px;
 }
 a {
-  padding: 10px 15px;
-  font-size: 18px;
+  font-size: 13px;
   text-decoration: none;
   color: black
 }
 .description-text {
-  border-left: 2px solid grey;
+  border-left: 1px solid grey;
   border-right: none;
   padding: 5px 20px;
-  font-size: 17px;
+  font-size: 15px;
 }
 .assets, .clients, .advisors{
   background-color: rgb(243, 243, 243);
@@ -79,11 +80,17 @@ a {
 }
 #digital{
   margin-top: 10px;
-  text-decoration: underline;
+  border-bottom: 1px solid grey;
+
 }
 #premium{
   margin-top: 10px;
-  text-decoration: underline;
+  border-bottom: 1px solid grey;
 }
-
-
+.star-rating{
+  font-size: 22px;
+  color: lightgrey;
+}
+#rate1:hover, #rate2:hover, #rate3:hover, #rate4:hover, #rate5:hover{
+  color: gold;
+}
