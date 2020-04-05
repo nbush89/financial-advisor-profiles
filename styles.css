@@ -13,7 +13,7 @@ h1 {
   font-size: 30px;
 }
 #crd{
-  margin: 2px 0px;
+  margin: 0px;
   font-size: 12px
 }
 h3 {
@@ -100,5 +100,25 @@ form{
   flex-direction: column;
 }
 textarea{
-  width: 80vw;
+  width: 85vw;
+  padding: 5px;
+}
+table, th, td{
+  border: 1px solid lightgrey;
+  padding: 7px;
+  border-collapse: collapse;
+}
+thead{
+  background-color: lightgray;
+  margin: 0px
+}
+#line2{
+  background-color: lightgray;
+}
+ul{
+  padding: 0px;
+  margin: 17px
+}
+@media only screen and (min-width: 768px){
+
 }
