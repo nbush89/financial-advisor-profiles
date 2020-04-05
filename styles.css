@@ -18,7 +18,7 @@ h1 {
 }
 h3 {
   margin: 0px;
-  font-size: 15px;
+  font-size: 20px;
 }
 h4 {
   margin: 5px 0px;
@@ -90,7 +90,12 @@ a {
 .star-rating{
   font-size: 22px;
   color: lightgrey;
+  margin: 5px 0px;
 }
 #rate1:hover, #rate2:hover, #rate3:hover, #rate4:hover, #rate5:hover{
   color: gold;
+}
+form{
+  display: flex;
+  flex-direction: column;
 }
