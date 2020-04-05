@@ -9,8 +9,8 @@ body {
   justify-content: space-between;
 }
 h1 {
-  margin: 3px 0px;
-  font-size: 30px;
+  margin: 0px;
+  font-size: 35px;
 }
 #crd{
   margin: 0px;
@@ -50,13 +50,13 @@ h4 {
 .address{
   border-right: 1px solid grey;
   border-left: 1px solid grey;
-  padding: 5px 15px;
+  padding: 0px 15px;
   margin: 0px;
 }
 .firm-info {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 20px 0px;
   font-size: 13px;
 }
@@ -120,5 +120,34 @@ ul{
   margin: 17px
 }
 @media only screen and (min-width: 768px){
-
+.profile-header{
+  display: flex;
+  justify-content: flex-start;
+}
+  h1{
+  font-size: 40px;
+}
+#crd{
+  font-size: 16px;
+}
+#score{
+  font-size: 25px;
+}
+.stars{
+  font-size: 25px;
+  margin: 5px 0px;
+}
+.award{
+  height: 150px;
+  width: 150px;
+  margin-left: 50px;
+}
+.firm-info{
+  font-size: 16px;
+  justify-content: flex-start;
+}
+.website, .phone{
+  font-size: 16px;
+  padding: 0px 15px;
+}
 }
