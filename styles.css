@@ -60,10 +60,11 @@ h4 {
   margin: 20px 0px;
   font-size: 13px;
 }
-a {
+.website {
   font-size: 13px;
-  text-decoration: none;
-  color: black
+}
+.description{
+  margin: 40px 0px;
 }
 .description-text {
   border-left: 1px solid grey;
@@ -90,10 +91,12 @@ a {
 .star-rating{
   font-size: 22px;
   color: lightgrey;
-  margin: 5px 0px;
 }
-#rate1:hover, #rate2:hover, #rate3:hover, #rate4:hover, #rate5:hover{
-  color: gold;
+.basic-info{
+  margin: 40px 0px;
+}
+.fees-container{
+  margin: 40px 0px;
 }
 form{
   display: flex;
@@ -102,6 +105,7 @@ form{
 textarea{
   width: 85vw;
   padding: 5px;
+  margin: 15px 0px;
 }
 table, th, td{
   border: 1px solid lightgrey;
@@ -109,15 +113,23 @@ table, th, td{
   border-collapse: collapse;
 }
 thead{
-  background-color: lightgray;
-  margin: 0px
+  background-color: #002d45;
+  margin: 0px;
+  color: #fefefe;
 }
 #line2{
-  background-color: lightgray;
+  background-color: #efefefef
 }
-ul{
+.fee-list{
   padding: 0px;
   margin: 17px
+}
+.reviews{
+  margin: 40px 0px;
+}
+button{
+  font-size: 16px;
+  padding: 5px;
 }
 @media only screen and (min-width: 768px){
 .profile-header{
@@ -137,6 +149,15 @@ ul{
   font-size: 25px;
   margin: 5px 0px;
 }
+.basic-info{
+  width: 60%;
+}
+.description-text{
+  width: 60%;
+}
+#rate1:hover, #rate2:hover, #rate3:hover, #rate4:hover, #rate5:hover{
+  color: gold;
+}
 .award{
   height: 150px;
   width: 150px;
@@ -149,5 +170,11 @@ ul{
 .website, .phone{
   font-size: 16px;
   padding: 0px 15px;
+}
+.retirement-description{
+  width: 50%
+}
+textarea{
+  width: 60%;
 }
 }
