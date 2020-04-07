@@ -1,139 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Financial Advisors</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/8e689803fb.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Financial Advisors</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
-  <script src="https://kit.fontawesome.com/8e689803fb.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-  <div class="profile-header">
-    <div class="title">
-      <h1>Betterment</h1>
-      <p id="crd">CRD# 149117</p>
-      <div class="rating">
-        <p id="score">4.0</p>
-        <div class="stars">
-          <i id="star1" class="fas fa-star"></i>
-          <i id="star2" class="fas fa-star"></i>
-          <i id="star3" class="fas fa-star"></i>
-          <i id="star4" class="fas fa-star"></i>
-          <i id="star5" class="fas fa-star"></i>
+  <body>
+    <div class="profile-header">
+      <div class="title">
+        <h1>Betterment</h1>
+        <p id="crd">CRD# 149117</p>
+        <div class="rating">
+          <p id="score">4.0</p>
+          <div class="stars">
+            <i id="star1" class="fas fa-star"></i>
+            <i id="star2" class="fas fa-star"></i>
+            <i id="star3" class="fas fa-star"></i>
+            <i id="star4" class="fas fa-star"></i>
+            <i id="star5" class="fas fa-star"></i>
+          </div>
+        </div>
+      </div>
+      <img class="award" src="mobile-award.png" alt="award" />
+    </div>
+    <div class="firm-info">
+      <p class="phone">(212) 228-1328</p>
+      <p class="address">
+        61 W. 23rd St 4th floor <br />
+        New York, NY 10010
+      </p>
+      <a class="website" href="https://www.betterment.com">Website</a>
+    </div>
+    <div class="description">
+      <h3>Overview</h3>
+      <p class="description-text">
+        Betterment is a leader among
+        <a
+          href="https://www.benzinga.com/money/financial-advisor-vs-robo-advisor/"
+          >Robo-Advisors</a
+        >. They offer tools to help you manage your money through cash
+        management, guided investing, and retirement planning. They offer a free
+        version with no account minimum as well as a premium version that
+        includes unlimited access to financial planners. Both plans charge rates
+        as a percentage of assets under management annually. Betterment is ideal
+        for hands-off investors and those with low balances.
+      </p>
+    </div>
+    <div class="basic-info">
+      <div class="assets">
+        <p>Assets Under Management:</p>
+        <p>$16,399,032,285</p>
+      </div>
+      <div class="clients">
+        <p>Number of Clients:</p>
+        <p>417,088</p>
+      </div>
+      <div class="advisors">
+        <p>Number of Advisors:</p>
+        <p>N/A</p>
+      </div>
+    </div>
+    <div class="fees-container">
+      <h2 id="fees">Investing Fee Structure</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Fees</th>
+            <th>Digital</th>
+            <th>Premium</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr id="line1">
+            <td>Account Management Fees</td>
+            <td>
+              <ul class="fee-list">
+                <li>0.25% up to $2 Million</li>
+                <li>0.15% over $2 Million</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="fee-list">
+                <li>0.40% up to $2 Million</li>
+                <li>0.30% over $2 Million</li>
+              </ul>
+            </td>
+          </tr>
+          <tr id="line2">
+            <td>Account Minimum</td>
+            <td>No Minimum</td>
+            <td>$100,000</td>
+          </tr>
+          <tr id="line3">
+            <td>
+              Advice from
+              <a
+                href="https://www.benzinga.com/money/top-financial-certifications/"
+                >CFP</a
+              >
+            </td>
+            <td>$199-$299</td>
+            <td>Unlimited Access</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="retirement">
+      <div class="retirement-description">
+        <h2>Retirement Planning</h2>
+        <p>
+          With Betterment you have access to retirement planning tools without
+          funding an account by syncing existing accounts. Once you transfer
+          retirement assets Betterment will charge a 0.25% management fee.
+        </p>
+        <p>
+          These tools offer suggestions on how you can save on each of your
+          accounts. Betterments Tax Suite is estimated to save you 38% more over
+          30 years, compared to a typical retirement investor.
+        </p>
+      </div>
+      <div class="retirement-accounts">
+        <h3>Account Types:</h3>
+        <ul>
+          <li>
+            IRA (<a href="https://www.benzinga.com/money/how-to-open-an-ira/"
+              >Traditional</a
+            >
+            &
+            <a href="https://www.benzinga.com/money/how-to-open-a-roth-ira/"
+              >Roth</a
+            >)
+          </li>
+          <li>
+            External
+            <a href="https://www.benzinga.com/money/what-is-a-401k/">401(k)</a>
+            and 403(b)
+          </li>
+          <li>
+            Taxable Accounts (Joint, Individual and
+            <a href="https://www.benzinga.com/money/what-is-a-trust/">Trust</a>)
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <div id="pro-title">
+          <h2>Pros</h2>
+          <i class="fas fa-thumbs-up"></i>
+        </div>
+      </div>
+      <div class="cons">
+        <div id="con-title">
+          <h2>Cons</h2>
+          <i class="fas fa-thumbs-up"></i>
         </div>
       </div>
     </div>
-    <img class="award" src="mobile-award.png" alt="award" />
-  </div>
-  <div class="firm-info">
-    <p class="phone">(212) 228-1328</p>
-    <p class="address">
-      61 W. 23rd St 4th floor <br>
-      New York, NY 10010</p>
-    <a class="website" href="https://www.betterment.com">Website</a>
-  </div>
-  <div class="description">
-    <h3>Overview</h3>
-    <p class="description-text">
-      Betterment is a leader among <a
-        href="https://www.benzinga.com/money/financial-advisor-vs-robo-advisor/">Robo-Advisors</a>. They offer tools to
-      help
-      you manage your money through cash management, guided investing, and retirement planning. They offer a free
-      version with no account minimum as well as a premium version that includes unlimited access to financial planners.
-      Both plans charge rates as a percentage of assets under management annually. Betterment is ideal for hands-off
-      investors and those with low balances.
-    </p>
-  </div>
-  <div class="basic-info">
-    <div class="assets">
-      <p>Assets Under Management:</p>
-      <p>$16,399,032,285</p>
-    </div>
-    <div class="clients">
-      <p>Number of Clients:</p>
-      <p>417,088</p>
-    </div>
-    <div class="advisors">
-      <p>Number of Advisors:</p>
-      <p>N/A</p>
-    </div>
-  </div>
-  <div class="fees-container">
-    <h2 id="fees">Investing Fee Structure</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Fees</th>
-          <th>Digital</th>
-          <th>Premium</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr id="line1">
-          <td>Account Management Fees</td>
-          <td>
-            <ul class="fee-list">
-              <li>0.25% up to $2 Million</li>
-              <li>0.15% over $2 Million</li>
-            </ul>
-          </td>
-          <td>
-            <ul class="fee-list">
-              <li>0.40% up to $2 Million</li>
-              <li>0.30% over $2 Million</li>
-            </ul>
-          </td>
-        </tr>
-        <tr id="line2">
-          <td>Account Minimum</td>
-          <td>No Minimum</td>
-          <td>$100,000</td>
-        </tr>
-        <tr id="line3">
-          <td>Advice from <a href="https://www.benzinga.com/money/top-financial-certifications/">CFP</a></td>
-          <td>$199-$299</td>
-          <td>Unlimited Access</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-  <div class="retirement">
-    <div class="retirement-description">
-      <h2>Retirement Planning</h2>
-      <p>With Betterment you have access to retirement planning tools without funding an account by syncing existing
-        accounts. Once you transfer
-        retirement assets Betterment will charge a 0.25% management fee.</p>
-      <p>These tools offer suggestions on how you can save on each of your accounts. Betterments Tax Suite is estimated
-        to save you 38% more over 30 years, compared to a typical retirement investor.</p>
-    </div>
-    <div class="retirement-accounts">
-      <h3>Account Types:</h3>
+    <div class="help">
+      <h2>Need Help Deciding?</h2>
       <ul>
-        <li>IRA (<a href="https://www.benzinga.com/money/how-to-open-an-ira/">Traditional</a> & <a
-            href="https://www.benzinga.com/money/how-to-open-a-roth-ira/">Roth</a>)</li>
-        <li>External <a href="https://www.benzinga.com/money/what-is-a-401k/">401(k)</a> and 403(b)</li>
-        <li>Taxable Accounts (Joint, Individual and <a href="https://www.benzinga.com/money/what-is-a-trust/">Trust</a>)
+        <li>
+          <a
+            href="https://www.benzinga.com/money/how-much-does-a-financial-advisor-cost/"
+            >How much does a Financial Advisor cost?</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.benzinga.com/money/questions-to-ask-a-financial-advisor/"
+            >10 questions to ask a Financial Advisor</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.benzinga.com/money/what-to-know-about-investment-advisors/"
+            >What to know about Investment Advisors</a
+          >
         </li>
       </ul>
     </div>
-  </div>
-  <div class="reviews">
-    <h2>Submit a Review</h2>
-    <div class="star-rating">
-      <i id="rate1" class="fas fa-star"></i>
-      <i id="rate2" class="fas fa-star"></i>
-      <i id="rate3" class="fas fa-star"></i>
-      <i id="rate4" class="fas fa-star"></i>
-      <i id="rate5" class="fas fa-star"></i>
+    <div class="reviews">
+      <h2>Submit a Review</h2>
+      <div class="star-rating">
+        <i id="rate1" class="fas fa-star"></i>
+        <i id="rate2" class="fas fa-star"></i>
+        <i id="rate3" class="fas fa-star"></i>
+        <i id="rate4" class="fas fa-star"></i>
+        <i id="rate5" class="fas fa-star"></i>
+      </div>
+      <form>
+        <textarea name="review" id="review" rows="8"></textarea>
+      </form>
+      <button>Submit</button>
     </div>
-    <form>
-      <textarea name="review" id="review" rows="8"></textarea>
-    </form>
-    <button>Submit</button>
-  </div>
-</body>
-
+  </body>
 </html>

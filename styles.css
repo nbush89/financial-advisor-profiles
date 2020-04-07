@@ -12,9 +12,9 @@ h1 {
   margin: 0px;
   font-size: 35px;
 }
-#crd{
+#crd {
   margin: 0px;
-  font-size: 12px
+  font-size: 12px;
 }
 h3 {
   margin: 0px;
@@ -28,26 +28,29 @@ h4 {
   display: flex;
   align-items: center;
 }
-#score{
+#score {
   font-weight: bold;
   margin: 0px;
   margin-right: 10px;
   font-size: 20px;
 }
-.stars{
+.stars {
   font-size: 16px;
 }
-#star1, #star2, #star3, #star4{
+#star1,
+#star2,
+#star3,
+#star4 {
   color: gold;
 }
-#star5{
-  color: lightgrey
+#star5 {
+  color: lightgrey;
 }
 .award {
   height: 100px;
   width: 100px;
 }
-.address{
+.address {
   border-right: 1px solid grey;
   border-left: 1px solid grey;
   padding: 0px 15px;
@@ -63,8 +66,8 @@ h4 {
 .website {
   font-size: 13px;
 }
-.description{
-  margin: 40px 0px;
+.description {
+  margin: 50px 0px;
 }
 .description-text {
   border-left: 1px solid grey;
@@ -72,109 +75,156 @@ h4 {
   padding: 5px 20px;
   font-size: 15px;
 }
-.assets, .clients, .advisors{
+.assets,
+.clients,
+.advisors {
   background-color: rgb(243, 243, 243);
   padding: 5px 10px;
   margin: 10px 0px;
   font-size: large;
   box-shadow: 5px 5px 5px lightgrey;
 }
-#digital{
-  margin-top: 10px;
-  border-bottom: 1px solid grey;
-
-}
-#premium{
+#digital {
   margin-top: 10px;
   border-bottom: 1px solid grey;
 }
-.star-rating{
+#premium {
+  margin-top: 10px;
+  border-bottom: 1px solid grey;
+}
+.star-rating {
   font-size: 22px;
   color: lightgrey;
 }
-.basic-info{
-  margin: 40px 0px;
+.basic-info {
+  margin: 50px 0px;
 }
-.fees-container{
-  margin: 40px 0px;
+.fees-container {
+  margin: 50px 0px;
 }
-form{
+form {
   display: flex;
   flex-direction: column;
 }
-textarea{
+textarea {
   width: 85vw;
   padding: 5px;
   margin: 15px 0px;
 }
-table, th, td{
+table,
+th,
+td {
   border: 1px solid lightgrey;
   padding: 7px;
   border-collapse: collapse;
 }
-thead{
+thead {
   background-color: #002d45;
   margin: 0px;
   color: #fefefe;
 }
-#line2{
-  background-color: #efefefef
+#line2 {
+  background-color: #efefefef;
 }
-.fee-list{
+.fee-list {
   padding: 0px;
-  margin: 17px
+  margin: 17px;
 }
-.reviews{
+.retirement {
+  margin: 50px 0px;
+}
+.pros-cons {
+  margin: 50px 0px;
+}
+.pros {
+  border: 1px solid #4bc459;
+  height: 300px;
+  width: 300px;
+}
+.cons {
+  border: 1px solid #d44950;
+  height: 300px;
+  width: 300px;
+}
+#pro-title {
+  color: #4bc459;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#con-title {
+  color: #d44950;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fa-thumbs-up,
+.fa-thumbs-down {
+  font-size: 22px;
+  margin: 0px 10px;
+}
+.reviews {
   margin: 40px 0px;
 }
-button{
+button {
   font-size: 16px;
   padding: 5px;
 }
-@media only screen and (min-width: 768px){
-.profile-header{
-  display: flex;
-  justify-content: flex-start;
-}
-  h1{
-  font-size: 40px;
-}
-#crd{
-  font-size: 16px;
-}
-#score{
-  font-size: 25px;
-}
-.stars{
-  font-size: 25px;
-  margin: 5px 0px;
-}
-.basic-info{
-  width: 60%;
-}
-.description-text{
-  width: 60%;
-}
-#rate1:hover, #rate2:hover, #rate3:hover, #rate4:hover, #rate5:hover{
-  color: gold;
-}
-.award{
-  height: 150px;
-  width: 150px;
-  margin-left: 50px;
-}
-.firm-info{
-  font-size: 16px;
-  justify-content: flex-start;
-}
-.website, .phone{
-  font-size: 16px;
-  padding: 0px 15px;
-}
-.retirement-description{
-  width: 50%
-}
-textarea{
-  width: 60%;
-}
+@media only screen and (min-width: 768px) {
+  .profile-header {
+    display: flex;
+    justify-content: flex-start;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  #crd {
+    font-size: 16px;
+  }
+  #score {
+    font-size: 25px;
+  }
+  .stars {
+    font-size: 25px;
+    margin: 5px 0px;
+  }
+  .basic-info {
+    width: 60%;
+  }
+  .description-text {
+    width: 60%;
+  }
+  #rate1:hover,
+  #rate2:hover,
+  #rate3:hover,
+  #rate4:hover,
+  #rate5:hover {
+    color: gold;
+  }
+  .award {
+    height: 150px;
+    width: 150px;
+    margin-left: 50px;
+  }
+  .firm-info {
+    font-size: 16px;
+    justify-content: flex-start;
+  }
+  .website,
+  .phone {
+    font-size: 16px;
+    padding: 0px 15px;
+  }
+  .retirement-description {
+    width: 50%;
+  }
+  .pros-cons {
+    display: flex;
+  }
+  .pros {
+    margin-right: 40px;
+  }
+  textarea {
+    width: 60%;
+  }
 }
