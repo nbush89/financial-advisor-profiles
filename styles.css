@@ -12,7 +12,7 @@ h1 {
   margin: 0px;
   font-size: 35px;
 }
-#crd {
+.crd {
   margin: 0px;
   font-size: 12px;
 }
@@ -28,7 +28,7 @@ h4 {
   display: flex;
   align-items: center;
 }
-#score {
+.score {
   font-weight: bold;
   margin: 0px;
   margin-right: 10px;
@@ -84,14 +84,6 @@ h4 {
   font-size: large;
   box-shadow: 5px 5px 5px lightgrey;
 }
-#digital {
-  margin-top: 10px;
-  border-bottom: 1px solid grey;
-}
-#premium {
-  margin-top: 10px;
-  border-bottom: 1px solid grey;
-}
 .star-rating {
   font-size: 22px;
   color: lightgrey;
@@ -123,7 +115,8 @@ thead {
   margin: 0px;
   color: #fefefe;
 }
-#line2 {
+.line1,
+.line3 {
   background-color: #efefefef;
 }
 .fee-list {
@@ -134,25 +127,26 @@ thead {
   margin: 50px 0px;
 }
 .pros-cons {
-  margin: 50px 0px;
+  margin: 40px 0px;
 }
 .pros {
   border: 1px solid #4bc459;
   height: 300px;
   width: 300px;
+  margin-bottom: 40px;
 }
 .cons {
   border: 1px solid #d44950;
   height: 300px;
   width: 300px;
 }
-#pro-title {
+.pro-title {
   color: #4bc459;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-#con-title {
+.con-title {
   color: #d44950;
   display: flex;
   align-items: center;
@@ -163,8 +157,11 @@ thead {
   font-size: 22px;
   margin: 0px 10px;
 }
+.help {
+  margin-bottom: 50px;
+}
 .reviews {
-  margin: 40px 0px;
+  margin: 20px 0px;
 }
 button {
   font-size: 16px;
@@ -178,10 +175,10 @@ button {
   h1 {
     font-size: 40px;
   }
-  #crd {
+  .crd {
     font-size: 16px;
   }
-  #score {
+  .score {
     font-size: 25px;
   }
   .stars {
@@ -221,8 +218,8 @@ button {
   .pros-cons {
     display: flex;
   }
-  .pros {
-    margin-right: 40px;
+  .cons {
+    margin-left: 40px;
   }
   textarea {
     width: 60%;
