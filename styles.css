@@ -75,6 +75,42 @@ h4 {
   padding: 5px 20px;
   font-size: 15px;
 }
+.pros-cons {
+  margin: 40px 0px;
+  display: flex;
+  flex-direction: column;
+}
+.pros {
+  border: 2px solid #4bc459;
+  margin-bottom: 40px;
+  flex: 1;
+  padding: 5px;
+}
+.cons {
+  border: 2px solid #d44950;
+  flex: 1;
+  padding: 5px;
+}
+.pro-title {
+  color: #4bc459;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.con-title {
+  color: #d44950;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fa-thumbs-up,
+.fa-thumbs-down {
+  font-size: 22px;
+  margin: 0px 10px;
+}
+.pros-cons-list {
+  margin-top: 0;
+}
 .assets,
 .clients,
 .advisors {
@@ -126,37 +162,6 @@ thead {
 .retirement {
   margin: 50px 0px;
 }
-.pros-cons {
-  margin: 40px 0px;
-}
-.pros {
-  border: 1px solid #4bc459;
-  height: 300px;
-  width: 300px;
-  margin-bottom: 40px;
-}
-.cons {
-  border: 1px solid #d44950;
-  height: 300px;
-  width: 300px;
-}
-.pro-title {
-  color: #4bc459;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.con-title {
-  color: #d44950;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.fa-thumbs-up,
-.fa-thumbs-down {
-  font-size: 22px;
-  margin: 0px 10px;
-}
 .help {
   margin-bottom: 50px;
 }
@@ -191,6 +196,19 @@ button {
   .description-text {
     width: 60%;
   }
+  .pros-cons {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    width: 60%;
+  }
+  .cons {
+    margin-left: 20px;
+  }
+  .pros {
+    margin-bottom: 0px;
+    margin-right: 20px;
+  }
   #rate1:hover,
   #rate2:hover,
   #rate3:hover,
@@ -213,13 +231,7 @@ button {
     padding: 0px 15px;
   }
   .retirement-description {
-    width: 50%;
-  }
-  .pros-cons {
-    display: flex;
-  }
-  .cons {
-    margin-left: 40px;
+    width: 60%;
   }
   textarea {
     width: 60%;
